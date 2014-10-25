@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7118304D19CB8AF100583AE2 /* Happy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7118304C19CB8AF100583AE2 /* Happy1.png */; };
+		7148E53C19D092520082006B /* start-button-png-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7148E53B19D092520082006B /* start-button-png-hi.png */; };
+		7148E55719D0A3890082006B /* PlayLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148E55619D0A3890082006B /* PlayLoginViewController.m */; };
+		7148E55A19D0A39F0082006B /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148E55919D0A39F0082006B /* PlayViewController.m */; };
+		7150777019CDF92A007A839F /* HomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7150776F19CDF92A007A839F /* HomeButton.png */; };
+		71693EAD19F671EA0023F312 /* Angry2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71693EA819F671EA0023F312 /* Angry2.jpg */; };
+		71693EAE19F671EA0023F312 /* Angry3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71693EA919F671EA0023F312 /* Angry3.jpg */; };
+		71693EAF19F671EA0023F312 /* Angry4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71693EAA19F671EA0023F312 /* Angry4.jpg */; };
+		71693EB019F671EA0023F312 /* Angry5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71693EAB19F671EA0023F312 /* Angry5.jpg */; };
+		71693EB319F673420023F312 /* Sad5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71693EB219F673420023F312 /* Sad5.jpg */; };
+		71693EB519F6736A0023F312 /* Sad3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71693EB419F6736A0023F312 /* Sad3.jpg */; };
+		71693EBB19F67DBC0023F312 /* Shock5.png in Resources */ = {isa = PBXBuildFile; fileRef = 71693EBA19F67DBC0023F312 /* Shock5.png */; };
+		71693EBD19F67F800023F312 /* Happy5.png in Resources */ = {isa = PBXBuildFile; fileRef = 71693EBC19F67F800023F312 /* Happy5.png */; };
+		71693EBF19F682C30023F312 /* Shock4.png in Resources */ = {isa = PBXBuildFile; fileRef = 71693EBE19F682C30023F312 /* Shock4.png */; };
+		71693EC119F683360023F312 /* Sad4.png in Resources */ = {isa = PBXBuildFile; fileRef = 71693EC019F683360023F312 /* Sad4.png */; };
+		71693EC319F6B8480023F312 /* pink-play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 71693EC219F6B8480023F312 /* pink-play-button.png */; };
+		71693EC519F6B9FE0023F312 /* orange-play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 71693EC419F6B9FE0023F312 /* orange-play-button.png */; };
+		71693EC919F6CB120023F312 /* WhiteBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 71693EC819F6CB120023F312 /* WhiteBackground.png */; };
+		71693ECB19F6D9D60023F312 /* Terrific.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71693ECA19F6D9D60023F312 /* Terrific.mp3 */; };
+		7185F07919E2963C00ABC761 /* TryAgain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7185F07819E2963C00ABC761 /* TryAgain.mp3 */; };
+		7185F07B19E2968A00ABC761 /* Applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7185F07A19E2968A00ABC761 /* Applause.mp3 */; };
+		7185F07F19E3A53C00ABC761 /* Sad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7185F07E19E3A53C00ABC761 /* Sad.mp3 */; };
+		7185F08119E3AA5600ABC761 /* Happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7185F08019E3AA5600ABC761 /* Happy.jpg */; };
+		7185F08519E3AA9400ABC761 /* Happy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7185F08219E3AA9400ABC761 /* Happy2.jpg */; };
+		7185F08619E3AA9400ABC761 /* Happy4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7185F08319E3AA9400ABC761 /* Happy4.jpg */; };
+		7185F08919E3AAF400ABC761 /* Tired4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7185F08819E3AAF400ABC761 /* Tired4.jpg */; };
+		7188196419F96A2700239E2D /* Tired5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7188196319F96A2700239E2D /* Tired5.jpg */; };
+		718B78C419BDC1E800806997 /* LearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B78C319BDC1E800806997 /* LearnViewController.m */; };
+		719856E419B5622A00983551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719856E319B5622A00983551 /* Foundation.framework */; };
+		719856E619B5622A00983551 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719856E519B5622A00983551 /* CoreGraphics.framework */; };
+		719856E819B5622A00983551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719856E719B5622A00983551 /* UIKit.framework */; };
+		719856EE19B5622A00983551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 719856EC19B5622A00983551 /* InfoPlist.strings */; };
+		719856F019B5622A00983551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 719856EF19B5622A00983551 /* main.m */; };
+		719856F419B5622A00983551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719856F319B5622A00983551 /* AppDelegate.m */; };
+		719856F719B5622A00983551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719856F519B5622A00983551 /* Main.storyboard */; };
+		719856FA19B5622A00983551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719856F919B5622A00983551 /* ViewController.m */; };
+		719856FC19B5622A00983551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719856FB19B5622A00983551 /* Images.xcassets */; };
+		7198570319B5622A00983551 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7198570219B5622A00983551 /* XCTest.framework */; };
+		7198570419B5622A00983551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719856E319B5622A00983551 /* Foundation.framework */; };
+		7198570519B5622A00983551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719856E719B5622A00983551 /* UIKit.framework */; };
+		7198570D19B5622A00983551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7198570B19B5622A00983551 /* InfoPlist.strings */; };
+		7198570F19B5622A00983551 /* EmotionableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7198570E19B5622A00983551 /* EmotionableTests.m */; };
+		7198571C19B5696400983551 /* Snip20140902_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7198571819B5696400983551 /* Snip20140902_2.png */; };
+		7198571F19B5696400983551 /* Snip20140902_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7198571B19B5696400983551 /* Snip20140902_5.png */; };
+		7198572119B56E5100983551 /* Learn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7198572019B56E5100983551 /* Learn.jpeg */; };
+		7198572719B58A4900983551 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7198572619B58A4900983551 /* LaunchImage.png */; };
+		71E4268619C2231E00FC00AA /* Test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E4268519C2231E00FC00AA /* Test.jpg */; };
+		71E4268819C3701700FC00AA /* ios7-home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E4268719C3701700FC00AA /* ios7-home-icon.png */; };
+		71E4268A19C5F4AC00FC00AA /* LearnOri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E4268919C5F4AC00FC00AA /* LearnOri.jpg */; };
+		71E4268D19C5F4FE00FC00AA /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E4268B19C5F4FE00FC00AA /* left.png */; };
+		71E4268E19C5F4FE00FC00AA /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E4268C19C5F4FE00FC00AA /* right.png */; };
+		71E4269619C5FF3B00FC00AA /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E4269519C5FF3B00FC00AA /* picture.png */; };
+		71E4269A19C6011200FC00AA /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E4269919C6011200FC00AA /* play.png */; };
+		71E426AC19C613B300FC00AA /* Angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426A019C613B300FC00AA /* Angry.jpg */; };
+		71E426AD19C613B300FC00AA /* Shock1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426A119C613B300FC00AA /* Shock1.jpg */; };
+		71E426AF19C613B300FC00AA /* Tired1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426A319C613B300FC00AA /* Tired1.jpg */; };
+		71E426B619C68FE000FC00AA /* LaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426B519C68FE000FC00AA /* LaunchImage.jpg */; };
+		71E426B819C6941300FC00AA /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E426B719C6941300FC00AA /* StartButton.png */; };
+		71E426BA19C6BDBC00FC00AA /* Happy3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426B919C6BDBC00FC00AA /* Happy3.jpg */; };
+		71E426BE19C6C67200FC00AA /* Sad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426BD19C6C67200FC00AA /* Sad.jpg */; };
+		71E426C019C7571600FC00AA /* Tired.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426BF19C7571600FC00AA /* Tired.jpg */; };
+		71E426C419C8361D00FC00AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E426C319C8361D00FC00AA /* AVFoundation.framework */; };
+		71E426CE19C8BAFC00FC00AA /* Tired3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426CD19C8BAFC00FC00AA /* Tired3.jpg */; };
+		71E426EF19C8BB3B00FC00AA /* Shock3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426CF19C8BB3B00FC00AA /* Shock3.jpg */; };
+		71E426F619C8BB3B00FC00AA /* Angry1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426D619C8BB3B00FC00AA /* Angry1.jpg */; };
+		71E426FA19C8BB3B00FC00AA /* Sad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426DA19C8BB3B00FC00AA /* Sad1.jpg */; };
+		71E426FC19C8BB3B00FC00AA /* Sad2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426DC19C8BB3B00FC00AA /* Sad2.jpg */; };
+		71E4270319C8BB3B00FC00AA /* Shy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E426E319C8BB3B00FC00AA /* Shy.jpg */; };
+		71E4271019C8C15A00FC00AA /* Angry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71E4270F19C8C15A00FC00AA /* Angry.mp3 */; };
+		71E4271719C8C34B00FC00AA /* Shock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71E4271519C8C34B00FC00AA /* Shock.mp3 */; };
+		71E4271919C8C37800FC00AA /* Happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71E4271819C8C37800FC00AA /* Happy.mp3 */; };
+		71E4271E19C9742F00FC00AA /* Tired.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71E4271D19C9742F00FC00AA /* Tired.mp3 */; };
+		71E4272019C974C200FC00AA /* Shock2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E4271F19C974C200FC00AA /* Shock2.jpg */; };
+		71E4272219C974DA00FC00AA /* Tired2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E4272119C974DA00FC00AA /* Tired2.jpg */; };
+		71E4272819C975D700FC00AA /* Shock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E4272719C975D700FC00AA /* Shock.jpg */; };
+		71E4272B19C9ADA600FC00AA /* MoreExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E4272A19C9ADA600FC00AA /* MoreExampleViewController.m */; };
+		71E7246419DA77DB0021A2CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E7246319DA77DB0021A2CF /* SystemConfiguration.framework */; };
+		71E7246719DA813E0021A2CF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7246619DA813E0021A2CF /* Reachability.m */; };
+		71E7246A19DA83F70021A2CF /* TestLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7246919DA83F70021A2CF /* TestLoginViewController.m */; };
+		71E7246C19DB5E590021A2CF /* orange-rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E7246B19DB5E590021A2CF /* orange-rectangle.png */; };
+		71E7246F19DB5F630021A2CF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7246E19DB5F630021A2CF /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7198570619B5622A00983551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719856D819B5622A00983551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719856DF19B5622A00983551;
+			remoteInfo = Emotionable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7118304C19CB8AF100583AE2 /* Happy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Happy1.png; sourceTree = "<group>"; };
+		7148E53B19D092520082006B /* start-button-png-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-button-png-hi.png"; sourceTree = "<group>"; };
+		7148E55519D0A3880082006B /* PlayLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayLoginViewController.h; sourceTree = "<group>"; };
+		7148E55619D0A3890082006B /* PlayLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayLoginViewController.m; sourceTree = "<group>"; };
+		7148E55819D0A39F0082006B /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		7148E55919D0A39F0082006B /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		7150776F19CDF92A007A839F /* HomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeButton.png; sourceTree = "<group>"; };
+		71693EA819F671EA0023F312 /* Angry2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry2.jpg; sourceTree = "<group>"; };
+		71693EA919F671EA0023F312 /* Angry3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry3.jpg; sourceTree = "<group>"; };
+		71693EAA19F671EA0023F312 /* Angry4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry4.jpg; sourceTree = "<group>"; };
+		71693EAB19F671EA0023F312 /* Angry5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry5.jpg; sourceTree = "<group>"; };
+		71693EB219F673420023F312 /* Sad5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad5.jpg; sourceTree = "<group>"; };
+		71693EB419F6736A0023F312 /* Sad3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad3.jpg; sourceTree = "<group>"; };
+		71693EBA19F67DBC0023F312 /* Shock5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shock5.png; sourceTree = "<group>"; };
+		71693EBC19F67F800023F312 /* Happy5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Happy5.png; sourceTree = "<group>"; };
+		71693EBE19F682C30023F312 /* Shock4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shock4.png; sourceTree = "<group>"; };
+		71693EC019F683360023F312 /* Sad4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sad4.png; sourceTree = "<group>"; };
+		71693EC219F6B8480023F312 /* pink-play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink-play-button.png"; sourceTree = "<group>"; };
+		71693EC419F6B9FE0023F312 /* orange-play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-play-button.png"; sourceTree = "<group>"; };
+		71693EC819F6CB120023F312 /* WhiteBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackground.png; sourceTree = "<group>"; };
+		71693ECA19F6D9D60023F312 /* Terrific.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Terrific.mp3; sourceTree = "<group>"; };
+		7185F07819E2963C00ABC761 /* TryAgain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TryAgain.mp3; sourceTree = "<group>"; };
+		7185F07A19E2968A00ABC761 /* Applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Applause.mp3; sourceTree = "<group>"; };
+		7185F07E19E3A53C00ABC761 /* Sad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sad.mp3; sourceTree = "<group>"; };
+		7185F08019E3AA5600ABC761 /* Happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy.jpg; sourceTree = "<group>"; };
+		7185F08219E3AA9400ABC761 /* Happy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy2.jpg; sourceTree = "<group>"; };
+		7185F08319E3AA9400ABC761 /* Happy4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy4.jpg; sourceTree = "<group>"; };
+		7185F08819E3AAF400ABC761 /* Tired4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tired4.jpg; sourceTree = "<group>"; };
+		7188196319F96A2700239E2D /* Tired5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tired5.jpg; sourceTree = "<group>"; };
+		718B78C219BDC1E800806997 /* LearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnViewController.h; sourceTree = "<group>"; };
+		718B78C319BDC1E800806997 /* LearnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnViewController.m; sourceTree = "<group>"; };
+		719856E019B5622A00983551 /* Emotionable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotionable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		719856E319B5622A00983551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		719856E519B5622A00983551 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		719856E719B5622A00983551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		719856EB19B5622A00983551 /* Emotionable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emotionable-Info.plist"; sourceTree = "<group>"; };
+		719856ED19B5622A00983551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		719856EF19B5622A00983551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		719856F119B5622A00983551 /* Emotionable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emotionable-Prefix.pch"; sourceTree = "<group>"; };
+		719856F219B5622A00983551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		719856F319B5622A00983551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		719856F619B5622A00983551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		719856F819B5622A00983551 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		719856F919B5622A00983551 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		719856FB19B5622A00983551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7198570119B5622A00983551 /* EmotionableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7198570219B5622A00983551 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7198570A19B5622A00983551 /* EmotionableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmotionableTests-Info.plist"; sourceTree = "<group>"; };
+		7198570C19B5622A00983551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7198570E19B5622A00983551 /* EmotionableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmotionableTests.m; sourceTree = "<group>"; };
+		7198571819B5696400983551 /* Snip20140902_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20140902_2.png; sourceTree = "<group>"; };
+		7198571B19B5696400983551 /* Snip20140902_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20140902_5.png; sourceTree = "<group>"; };
+		7198572019B56E5100983551 /* Learn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Learn.jpeg; sourceTree = "<group>"; };
+		7198572619B58A4900983551 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		71E4268519C2231E00FC00AA /* Test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Test.jpg; sourceTree = "<group>"; };
+		71E4268719C3701700FC00AA /* ios7-home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-home-icon.png"; sourceTree = "<group>"; };
+		71E4268919C5F4AC00FC00AA /* LearnOri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LearnOri.jpg; sourceTree = "<group>"; };
+		71E4268B19C5F4FE00FC00AA /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		71E4268C19C5F4FE00FC00AA /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		71E4269519C5FF3B00FC00AA /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		71E4269919C6011200FC00AA /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		71E426A019C613B300FC00AA /* Angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry.jpg; sourceTree = "<group>"; };
+		71E426A119C613B300FC00AA /* Shock1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shock1.jpg; sourceTree = "<group>"; };
+		71E426A319C613B300FC00AA /* Tired1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tired1.jpg; sourceTree = "<group>"; };
+		71E426B519C68FE000FC00AA /* LaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchImage.jpg; sourceTree = "<group>"; };
+		71E426B719C6941300FC00AA /* StartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartButton.png; sourceTree = "<group>"; };
+		71E426B919C6BDBC00FC00AA /* Happy3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy3.jpg; sourceTree = "<group>"; };
+		71E426BD19C6C67200FC00AA /* Sad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad.jpg; sourceTree = "<group>"; };
+		71E426BF19C7571600FC00AA /* Tired.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tired.jpg; sourceTree = "<group>"; };
+		71E426C319C8361D00FC00AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		71E426CD19C8BAFC00FC00AA /* Tired3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tired3.jpg; sourceTree = "<group>"; };
+		71E426CF19C8BB3B00FC00AA /* Shock3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shock3.jpg; sourceTree = "<group>"; };
+		71E426D619C8BB3B00FC00AA /* Angry1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry1.jpg; sourceTree = "<group>"; };
+		71E426DA19C8BB3B00FC00AA /* Sad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad1.jpg; sourceTree = "<group>"; };
+		71E426DC19C8BB3B00FC00AA /* Sad2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad2.jpg; sourceTree = "<group>"; };
+		71E426E319C8BB3B00FC00AA /* Shy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shy.jpg; sourceTree = "<group>"; };
+		71E4270F19C8C15A00FC00AA /* Angry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Angry.mp3; sourceTree = "<group>"; };
+		71E4271519C8C34B00FC00AA /* Shock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shock.mp3; sourceTree = "<group>"; };
+		71E4271819C8C37800FC00AA /* Happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Happy.mp3; sourceTree = "<group>"; };
+		71E4271D19C9742F00FC00AA /* Tired.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tired.mp3; sourceTree = "<group>"; };
+		71E4271F19C974C200FC00AA /* Shock2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shock2.jpg; sourceTree = "<group>"; };
+		71E4272119C974DA00FC00AA /* Tired2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tired2.jpg; sourceTree = "<group>"; };
+		71E4272719C975D700FC00AA /* Shock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shock.jpg; sourceTree = "<group>"; };
+		71E4272919C9ADA600FC00AA /* MoreExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreExampleViewController.h; sourceTree = "<group>"; };
+		71E4272A19C9ADA600FC00AA /* MoreExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreExampleViewController.m; sourceTree = "<group>"; };
+		71E7246319DA77DB0021A2CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		71E7246519DA813E0021A2CF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		71E7246619DA813E0021A2CF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		71E7246819DA83F70021A2CF /* TestLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLoginViewController.h; sourceTree = "<group>"; };
+		71E7246919DA83F70021A2CF /* TestLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLoginViewController.m; sourceTree = "<group>"; };
+		71E7246B19DB5E590021A2CF /* orange-rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-rectangle.png"; sourceTree = "<group>"; };
+		71E7246D19DB5F630021A2CF /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		71E7246E19DB5F630021A2CF /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719856DD19B5622A00983551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E7246419DA77DB0021A2CF /* SystemConfiguration.framework in Frameworks */,
+				71E426C419C8361D00FC00AA /* AVFoundation.framework in Frameworks */,
+				719856E619B5622A00983551 /* CoreGraphics.framework in Frameworks */,
+				719856E819B5622A00983551 /* UIKit.framework in Frameworks */,
+				719856E419B5622A00983551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719856FE19B5622A00983551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7198570319B5622A00983551 /* XCTest.framework in Frameworks */,
+				7198570519B5622A00983551 /* UIKit.framework in Frameworks */,
+				7198570419B5622A00983551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719856D719B5622A00983551 = {
+			isa = PBXGroup;
+			children = (
+				719856E919B5622A00983551 /* Emotionable */,
+				7198570819B5622A00983551 /* EmotionableTests */,
+				719856E219B5622A00983551 /* Frameworks */,
+				719856E119B5622A00983551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719856E119B5622A00983551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719856E019B5622A00983551 /* Emotionable.app */,
+				7198570119B5622A00983551 /* EmotionableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719856E219B5622A00983551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71E7246319DA77DB0021A2CF /* SystemConfiguration.framework */,
+				71E426C319C8361D00FC00AA /* AVFoundation.framework */,
+				719856E319B5622A00983551 /* Foundation.framework */,
+				719856E519B5622A00983551 /* CoreGraphics.framework */,
+				719856E719B5622A00983551 /* UIKit.framework */,
+				7198570219B5622A00983551 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		719856E919B5622A00983551 /* Emotionable */ = {
+			isa = PBXGroup;
+			children = (
+				71E4271119C8C2D100FC00AA /* Sound Effect */,
+				71E4269B19C6022F00FC00AA /* image */,
+				719856F219B5622A00983551 /* AppDelegate.h */,
+				719856F319B5622A00983551 /* AppDelegate.m */,
+				71E7246519DA813E0021A2CF /* Reachability.h */,
+				71E7246619DA813E0021A2CF /* Reachability.m */,
+				719856F519B5622A00983551 /* Main.storyboard */,
+				7148E55519D0A3880082006B /* PlayLoginViewController.h */,
+				7148E55619D0A3890082006B /* PlayLoginViewController.m */,
+				7148E55819D0A39F0082006B /* PlayViewController.h */,
+				7148E55919D0A39F0082006B /* PlayViewController.m */,
+				71E7246D19DB5F630021A2CF /* TestViewController.h */,
+				71E7246E19DB5F630021A2CF /* TestViewController.m */,
+				71E7246819DA83F70021A2CF /* TestLoginViewController.h */,
+				71E7246919DA83F70021A2CF /* TestLoginViewController.m */,
+				71E4272919C9ADA600FC00AA /* MoreExampleViewController.h */,
+				71E4272A19C9ADA600FC00AA /* MoreExampleViewController.m */,
+				719856F819B5622A00983551 /* ViewController.h */,
+				718B78C219BDC1E800806997 /* LearnViewController.h */,
+				718B78C319BDC1E800806997 /* LearnViewController.m */,
+				719856F919B5622A00983551 /* ViewController.m */,
+				719856FB19B5622A00983551 /* Images.xcassets */,
+				719856EA19B5622A00983551 /* Supporting Files */,
+			);
+			path = Emotionable;
+			sourceTree = "<group>";
+		};
+		719856EA19B5622A00983551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				719856EB19B5622A00983551 /* Emotionable-Info.plist */,
+				719856EC19B5622A00983551 /* InfoPlist.strings */,
+				719856EF19B5622A00983551 /* main.m */,
+				719856F119B5622A00983551 /* Emotionable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7198570819B5622A00983551 /* EmotionableTests */ = {
+			isa = PBXGroup;
+			children = (
+				7198570E19B5622A00983551 /* EmotionableTests.m */,
+				7198570919B5622A00983551 /* Supporting Files */,
+			);
+			path = EmotionableTests;
+			sourceTree = "<group>";
+		};
+		7198570919B5622A00983551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7198570A19B5622A00983551 /* EmotionableTests-Info.plist */,
+				7198570B19B5622A00983551 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71E4269B19C6022F00FC00AA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				71E426B419C687D800FC00AA /* LEARN */,
+				71E426C519C8BA1200FC00AA /* happy */,
+				71E426C719C8BA1F00FC00AA /* angry */,
+				71E426C619C8BA1A00FC00AA /* sad */,
+				71E426CA19C8BA3C00FC00AA /* shock */,
+				71E426C819C8BA2E00FC00AA /* tired */,
+				71E426B719C6941300FC00AA /* StartButton.png */,
+				71693EC219F6B8480023F312 /* pink-play-button.png */,
+				7148E53B19D092520082006B /* start-button-png-hi.png */,
+				71E7246B19DB5E590021A2CF /* orange-rectangle.png */,
+				71693EC819F6CB120023F312 /* WhiteBackground.png */,
+				71693EC419F6B9FE0023F312 /* orange-play-button.png */,
+				71E426B519C68FE000FC00AA /* LaunchImage.jpg */,
+				7150776F19CDF92A007A839F /* HomeButton.png */,
+				71E426E319C8BB3B00FC00AA /* Shy.jpg */,
+				71E4269919C6011200FC00AA /* play.png */,
+				71E4269519C5FF3B00FC00AA /* picture.png */,
+				71E4268B19C5F4FE00FC00AA /* left.png */,
+				71E4268C19C5F4FE00FC00AA /* right.png */,
+				71E4268919C5F4AC00FC00AA /* LearnOri.jpg */,
+				71E4268719C3701700FC00AA /* ios7-home-icon.png */,
+				71E4268519C2231E00FC00AA /* Test.jpg */,
+				7198572619B58A4900983551 /* LaunchImage.png */,
+				7198572019B56E5100983551 /* Learn.jpeg */,
+				7198571819B5696400983551 /* Snip20140902_2.png */,
+				7198571B19B5696400983551 /* Snip20140902_5.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		71E426B419C687D800FC00AA /* LEARN */ = {
+			isa = PBXGroup;
+			children = (
+				7185F08019E3AA5600ABC761 /* Happy.jpg */,
+				71E426BD19C6C67200FC00AA /* Sad.jpg */,
+				71E426BF19C7571600FC00AA /* Tired.jpg */,
+				71E426A019C613B300FC00AA /* Angry.jpg */,
+				71E4272719C975D700FC00AA /* Shock.jpg */,
+			);
+			name = LEARN;
+			sourceTree = "<group>";
+		};
+		71E426C519C8BA1200FC00AA /* happy */ = {
+			isa = PBXGroup;
+			children = (
+				7118304C19CB8AF100583AE2 /* Happy1.png */,
+				7185F08219E3AA9400ABC761 /* Happy2.jpg */,
+				71E426B919C6BDBC00FC00AA /* Happy3.jpg */,
+				7185F08319E3AA9400ABC761 /* Happy4.jpg */,
+				71693EBC19F67F800023F312 /* Happy5.png */,
+			);
+			name = happy;
+			sourceTree = "<group>";
+		};
+		71E426C619C8BA1A00FC00AA /* sad */ = {
+			isa = PBXGroup;
+			children = (
+				71E426DA19C8BB3B00FC00AA /* Sad1.jpg */,
+				71E426DC19C8BB3B00FC00AA /* Sad2.jpg */,
+				71693EB419F6736A0023F312 /* Sad3.jpg */,
+				71693EC019F683360023F312 /* Sad4.png */,
+				71693EB219F673420023F312 /* Sad5.jpg */,
+			);
+			name = sad;
+			sourceTree = "<group>";
+		};
+		71E426C719C8BA1F00FC00AA /* angry */ = {
+			isa = PBXGroup;
+			children = (
+				71E426D619C8BB3B00FC00AA /* Angry1.jpg */,
+				71693EA819F671EA0023F312 /* Angry2.jpg */,
+				71693EA919F671EA0023F312 /* Angry3.jpg */,
+				71693EAA19F671EA0023F312 /* Angry4.jpg */,
+				71693EAB19F671EA0023F312 /* Angry5.jpg */,
+			);
+			name = angry;
+			sourceTree = "<group>";
+		};
+		71E426C819C8BA2E00FC00AA /* tired */ = {
+			isa = PBXGroup;
+			children = (
+				71E426A319C613B300FC00AA /* Tired1.jpg */,
+				71E4272119C974DA00FC00AA /* Tired2.jpg */,
+				71E426CD19C8BAFC00FC00AA /* Tired3.jpg */,
+				7185F08819E3AAF400ABC761 /* Tired4.jpg */,
+				7188196319F96A2700239E2D /* Tired5.jpg */,
+			);
+			name = tired;
+			sourceTree = "<group>";
+		};
+		71E426CA19C8BA3C00FC00AA /* shock */ = {
+			isa = PBXGroup;
+			children = (
+				71E426A119C613B300FC00AA /* Shock1.jpg */,
+				71E4271F19C974C200FC00AA /* Shock2.jpg */,
+				71E426CF19C8BB3B00FC00AA /* Shock3.jpg */,
+				71693EBE19F682C30023F312 /* Shock4.png */,
+				71693EBA19F67DBC0023F312 /* Shock5.png */,
+			);
+			name = shock;
+			sourceTree = "<group>";
+		};
+		71E4271119C8C2D100FC00AA /* Sound Effect */ = {
+			isa = PBXGroup;
+			children = (
+				7185F07A19E2968A00ABC761 /* Applause.mp3 */,
+				7185F07819E2963C00ABC761 /* TryAgain.mp3 */,
+				71E4271D19C9742F00FC00AA /* Tired.mp3 */,
+				7185F07E19E3A53C00ABC761 /* Sad.mp3 */,
+				71E4271819C8C37800FC00AA /* Happy.mp3 */,
+				71E4271519C8C34B00FC00AA /* Shock.mp3 */,
+				71E4270F19C8C15A00FC00AA /* Angry.mp3 */,
+				71693ECA19F6D9D60023F312 /* Terrific.mp3 */,
+			);
+			name = "Sound Effect";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719856DF19B5622A00983551 /* Emotionable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7198571219B5622A00983551 /* Build configuration list for PBXNativeTarget "Emotionable" */;
+			buildPhases = (
+				719856DC19B5622A00983551 /* Sources */,
+				719856DD19B5622A00983551 /* Frameworks */,
+				719856DE19B5622A00983551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emotionable;
+			productName = Emotionable;
+			productReference = 719856E019B5622A00983551 /* Emotionable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7198570019B5622A00983551 /* EmotionableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7198571519B5622A00983551 /* Build configuration list for PBXNativeTarget "EmotionableTests" */;
+			buildPhases = (
+				719856FD19B5622A00983551 /* Sources */,
+				719856FE19B5622A00983551 /* Frameworks */,
+				719856FF19B5622A00983551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7198570719B5622A00983551 /* PBXTargetDependency */,
+			);
+			name = EmotionableTests;
+			productName = EmotionableTests;
+			productReference = 7198570119B5622A00983551 /* EmotionableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719856D819B5622A00983551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = carmenpui;
+				TargetAttributes = {
+					719856DF19B5622A00983551 = {
+						DevelopmentTeam = 3Q7WJZ9YQ7;
+					};
+					7198570019B5622A00983551 = {
+						TestTargetID = 719856DF19B5622A00983551;
+					};
+				};
+			};
+			buildConfigurationList = 719856DB19B5622A00983551 /* Build configuration list for PBXProject "Emotionable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719856D719B5622A00983551;
+			productRefGroup = 719856E119B5622A00983551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719856DF19B5622A00983551 /* Emotionable */,
+				7198570019B5622A00983551 /* EmotionableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719856DE19B5622A00983551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71693EB519F6736A0023F312 /* Sad3.jpg in Resources */,
+				71E4268E19C5F4FE00FC00AA /* right.png in Resources */,
+				7185F08119E3AA5600ABC761 /* Happy.jpg in Resources */,
+				7185F08519E3AA9400ABC761 /* Happy2.jpg in Resources */,
+				71E4271919C8C37800FC00AA /* Happy.mp3 in Resources */,
+				71E426FC19C8BB3B00FC00AA /* Sad2.jpg in Resources */,
+				7198572119B56E5100983551 /* Learn.jpeg in Resources */,
+				71E4268619C2231E00FC00AA /* Test.jpg in Resources */,
+				71693EAE19F671EA0023F312 /* Angry3.jpg in Resources */,
+				7185F07B19E2968A00ABC761 /* Applause.mp3 in Resources */,
+				71E426AF19C613B300FC00AA /* Tired1.jpg in Resources */,
+				71693EBD19F67F800023F312 /* Happy5.png in Resources */,
+				71693EC119F683360023F312 /* Sad4.png in Resources */,
+				71E4268A19C5F4AC00FC00AA /* LearnOri.jpg in Resources */,
+				71E4268819C3701700FC00AA /* ios7-home-icon.png in Resources */,
+				71E426BA19C6BDBC00FC00AA /* Happy3.jpg in Resources */,
+				71E4270319C8BB3B00FC00AA /* Shy.jpg in Resources */,
+				71693EBB19F67DBC0023F312 /* Shock5.png in Resources */,
+				71E426C019C7571600FC00AA /* Tired.jpg in Resources */,
+				71E426CE19C8BAFC00FC00AA /* Tired3.jpg in Resources */,
+				7198572719B58A4900983551 /* LaunchImage.png in Resources */,
+				71693ECB19F6D9D60023F312 /* Terrific.mp3 in Resources */,
+				71E4272219C974DA00FC00AA /* Tired2.jpg in Resources */,
+				71693EBF19F682C30023F312 /* Shock4.png in Resources */,
+				71693EC919F6CB120023F312 /* WhiteBackground.png in Resources */,
+				7185F07F19E3A53C00ABC761 /* Sad.mp3 in Resources */,
+				719856FC19B5622A00983551 /* Images.xcassets in Resources */,
+				7185F07919E2963C00ABC761 /* TryAgain.mp3 in Resources */,
+				71693EC319F6B8480023F312 /* pink-play-button.png in Resources */,
+				71E426BE19C6C67200FC00AA /* Sad.jpg in Resources */,
+				7150777019CDF92A007A839F /* HomeButton.png in Resources */,
+				71E4271719C8C34B00FC00AA /* Shock.mp3 in Resources */,
+				71E426FA19C8BB3B00FC00AA /* Sad1.jpg in Resources */,
+				7118304D19CB8AF100583AE2 /* Happy1.png in Resources */,
+				71693EB019F671EA0023F312 /* Angry5.jpg in Resources */,
+				71693EAD19F671EA0023F312 /* Angry2.jpg in Resources */,
+				71E4271019C8C15A00FC00AA /* Angry.mp3 in Resources */,
+				71E426B819C6941300FC00AA /* StartButton.png in Resources */,
+				71E4271E19C9742F00FC00AA /* Tired.mp3 in Resources */,
+				71E4269619C5FF3B00FC00AA /* picture.png in Resources */,
+				7188196419F96A2700239E2D /* Tired5.jpg in Resources */,
+				71E4269A19C6011200FC00AA /* play.png in Resources */,
+				7185F08919E3AAF400ABC761 /* Tired4.jpg in Resources */,
+				71693EC519F6B9FE0023F312 /* orange-play-button.png in Resources */,
+				719856EE19B5622A00983551 /* InfoPlist.strings in Resources */,
+				71693EAF19F671EA0023F312 /* Angry4.jpg in Resources */,
+				71E426F619C8BB3B00FC00AA /* Angry1.jpg in Resources */,
+				7198571C19B5696400983551 /* Snip20140902_2.png in Resources */,
+				7148E53C19D092520082006B /* start-button-png-hi.png in Resources */,
+				71E426EF19C8BB3B00FC00AA /* Shock3.jpg in Resources */,
+				71E426B619C68FE000FC00AA /* LaunchImage.jpg in Resources */,
+				71E426AD19C613B300FC00AA /* Shock1.jpg in Resources */,
+				7198571F19B5696400983551 /* Snip20140902_5.png in Resources */,
+				71693EB319F673420023F312 /* Sad5.jpg in Resources */,
+				71E426AC19C613B300FC00AA /* Angry.jpg in Resources */,
+				71E4272019C974C200FC00AA /* Shock2.jpg in Resources */,
+				71E4268D19C5F4FE00FC00AA /* left.png in Resources */,
+				71E7246C19DB5E590021A2CF /* orange-rectangle.png in Resources */,
+				719856F719B5622A00983551 /* Main.storyboard in Resources */,
+				7185F08619E3AA9400ABC761 /* Happy4.jpg in Resources */,
+				71E4272819C975D700FC00AA /* Shock.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719856FF19B5622A00983551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7198570D19B5622A00983551 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719856DC19B5622A00983551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E4272B19C9ADA600FC00AA /* MoreExampleViewController.m in Sources */,
+				71E7246A19DA83F70021A2CF /* TestLoginViewController.m in Sources */,
+				7148E55719D0A3890082006B /* PlayLoginViewController.m in Sources */,
+				719856FA19B5622A00983551 /* ViewController.m in Sources */,
+				71E7246F19DB5F630021A2CF /* TestViewController.m in Sources */,
+				71E7246719DA813E0021A2CF /* Reachability.m in Sources */,
+				718B78C419BDC1E800806997 /* LearnViewController.m in Sources */,
+				719856F419B5622A00983551 /* AppDelegate.m in Sources */,
+				7148E55A19D0A39F0082006B /* PlayViewController.m in Sources */,
+				719856F019B5622A00983551 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719856FD19B5622A00983551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7198570F19B5622A00983551 /* EmotionableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7198570719B5622A00983551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719856DF19B5622A00983551 /* Emotionable */;
+			targetProxy = 7198570619B5622A00983551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		719856EC19B5622A00983551 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719856ED19B5622A00983551 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		719856F519B5622A00983551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719856F619B5622A00983551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7198570B19B5622A00983551 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7198570C19B5622A00983551 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7198571019B5622A00983551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7198571119B5622A00983551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7198571319B5622A00983551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emotionable/Emotionable-Prefix.pch";
+				INFOPLIST_FILE = "Emotionable/Emotionable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emotionable/Emotionable-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7198571419B5622A00983551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emotionable/Emotionable-Prefix.pch";
+				INFOPLIST_FILE = "Emotionable/Emotionable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emotionable/Emotionable-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7198571619B5622A00983551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Emotionable.app/Emotionable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emotionable/Emotionable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EmotionableTests/EmotionableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7198571719B5622A00983551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Emotionable.app/Emotionable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emotionable/Emotionable-Prefix.pch";
+				INFOPLIST_FILE = "EmotionableTests/EmotionableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719856DB19B5622A00983551 /* Build configuration list for PBXProject "Emotionable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7198571019B5622A00983551 /* Debug */,
+				7198571119B5622A00983551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7198571219B5622A00983551 /* Build configuration list for PBXNativeTarget "Emotionable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7198571319B5622A00983551 /* Debug */,
+				7198571419B5622A00983551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7198571519B5622A00983551 /* Build configuration list for PBXNativeTarget "EmotionableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7198571619B5622A00983551 /* Debug */,
+				7198571719B5622A00983551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719856D819B5622A00983551 /* Project object */;
+}
